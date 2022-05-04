@@ -1,0 +1,48 @@
+.some-top-bar {
+  margin-right: 5px;
+}
+
+.fb {
+  color: #4267b2;
+}
+.fb:hover {
+  color: #4267b2;
+}
+
+.ig {
+  color: #c13584;
+}
+.ig:hover {
+  color: #c13584;
+}
+
+.tw {
+  color: #1da1f2;
+}
+.tw:hover {
+  color: #1da1f2;
+}
+
+.yt {
+  color: #ff0000;
+}
+
+.pint {
+  color: #e60023;
+}
+
+.tt {
+  color: #010101;
+}
+
+.yt:hover {
+  color: #ff0000;
+}
+
+.pint:hover {
+  color: #e60023;
+}
+
+.tt:hover {
+  color: #010101;
+}
