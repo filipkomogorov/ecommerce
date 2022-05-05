@@ -46,3 +46,70 @@
 .tt:hover {
   color: #010101;
 }
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.nav-dropdown-btn button {
+  background-color: #f8f8ff;
+  color: #1f1f1f;
+
+  font-size: 18px;
+
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #f8f8ff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.dropdown-toggle {
+  background-color: #f8f8ff !important;
+  color: #1f1f1f !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  border-bottom: 2px solid #1f1f1f !important;
+}
+
+.nav-dropdown-btn button:active {
+  background-color: #f8f8ff;
+  color: #1f1f1f;
+  border-bottom: 2px solid #1f1f1f;
+}
+
+.nav-dropdown-btn button:hover {
+  background-color: #f8f8ff;
+  color: #1f1f1f;
+  border-bottom: 2px solid #1f1f1f;
+}
+
+.nav-dropdown-btn:not(:first-child) {
+  margin-left: 20px;
+}
+
+#sale {
+  font-weight: 500;
+  color: red !important;
+}
+
+#sale:hover {
+  font-weight: 500;
+  color: red !important;
+}
+
+#cart-btn {
+  border: none;
+}
+
+#cart-btn:active,
+#cart-btn:focus,
+#cart-btn:hover {
+  border: none !important;
+}
