@@ -7,7 +7,6 @@ export interface Category {
 export interface NavDirectory {
   id: number;
   title: string;
-  path: string;
   directories: Category[];
 }
 
@@ -15,12 +14,11 @@ export const navigation: NavDirectory[] = [
   {
     id: 1,
     title: "Men",
-    path: "/men",
     directories: [
       {
         id: 10,
         directory: "View All",
-        path: "/men/viewall",
+        path: "/men",
       },
       {
         id: 11,
@@ -47,12 +45,11 @@ export const navigation: NavDirectory[] = [
   {
     id: 2,
     title: "Women",
-    path: "/women",
     directories: [
       {
         id: 15,
         directory: "View All",
-        path: "/women/viewall",
+        path: "/women",
       },
       {
         id: 16,
@@ -79,12 +76,11 @@ export const navigation: NavDirectory[] = [
   {
     id: 3,
     title: "New",
-    path: "/new",
     directories: [
       {
         id: 20,
         directory: "View All",
-        path: "/new/viewall",
+        path: "/new",
       },
       {
         id: 21,
@@ -101,12 +97,11 @@ export const navigation: NavDirectory[] = [
   {
     id: 4,
     title: "Outlet",
-    path: "/outlet",
     directories: [
       {
         id: 23,
         directory: "View All",
-        path: "/outlet/viewall",
+        path: "/outlet",
       },
       {
         id: 24,
@@ -138,20 +133,24 @@ export const navigation: NavDirectory[] = [
   {
     id: 5,
     title: "Sale",
-    path: "/sale",
     directories: [
       {
         id: 29,
+        directory: "View All",
+        path: "/sale",
+      },
+      {
+        id: 30,
         directory: "Men",
         path: "/sale/men",
       },
       {
-        id: 30,
+        id: 31,
         directory: "Women",
         path: "/sale/women",
       },
       {
-        id: 31,
+        id: 32,
         directory: "Accessories",
         path: "/sale/accessories",
       },

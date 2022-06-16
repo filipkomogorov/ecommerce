@@ -106,10 +106,44 @@
 
 #cart-btn {
   border: none;
+  width: 70px;
 }
 
 #cart-btn:active,
 #cart-btn:focus,
 #cart-btn:hover {
   border: none !important;
+}
+
+.filterWrapper {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.cart-nav-item {
+  width: 320px;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.cart-nav-item-image img {
+  height: 100px;
+  width: auto;
+}
+
+.cart-nav-item-text {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.cart-nav-item-text p {
+  margin: 0;
+  padding: 0;
 }
